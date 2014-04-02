@@ -1,6 +1,6 @@
 # EdX powered courses video downloader
 
-This script is intended to download course videos from http://education.10gen.com
+This script is intended to download course videos from https://university.mongodb.com
 or any other site 'Powered by EdX' (including, of course, http://edx.org itself).
 
 This script relies on [youtube-dl](https://github.com/rg3/youtube-dl/) project
