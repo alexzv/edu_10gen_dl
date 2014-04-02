@@ -96,7 +96,7 @@ class EdXBrowser(object):
                         continue
 
                 i += 1
-                courseware_url = re.sub(r'\/info$','/courseware',course_url)
+                courseware_url = re.sub(r'\/(info|syllabus)$','/courseware',course_url)
                 self.courses.append({'name':course_name, 'url':courseware_url})
                 print '[%02i] %s' % (i, course_name)
 
